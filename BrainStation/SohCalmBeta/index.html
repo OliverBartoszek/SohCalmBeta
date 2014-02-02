@@ -1,0 +1,106 @@
+<Doctype! HTML>	
+<head>
+	<title>Soh Calm Beta</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+	<!-- Header -->
+	<header class="navbar">
+			<a href="index.html" class="HeaderLogo"></a>
+			<nav class="main-nav group">
+				<a href="shop.html">Shop</a>
+				<a href="about.html">About</a>
+				<a href="http://www.sohcalm.tumblr.com" target="_blank">Blog</a> 	
+				<a href="contact.html">Contact</a>		
+			</nav>	
+			<nav class="social-nav group">
+				<a href="http://www.youtube.com/SohCalm" class="VimeoLink"></a>
+				<a href="http://www.instagram.com/SohCalm" class="InstagramLink"></a>
+				<a href="http://www.twitter.com/SohCalm" class="TwitterLink"></a>
+			</nav>
+	</header>
+	<!-- Slider -->
+	<div class="slider">
+    	<ul>
+    		<li><img src="images/SCSlider3.jpg"></li>
+        	<li><a href="about.html"><img src="images/SCSlider1.jpg"></a></li>
+        	<li><img src="images/SCSlider2.jpg"></li>
+    	</ul>
+	</div>
+	<!-- Free Shipping -->
+	<div class="freeshipping">
+		<img src="images/SC-FreeShipping.jpg">
+	</div>
+	<!-- Cut & Sewn in Toronto -->
+	<section id="canadamap" data-type="background" data-speed="10"> 
+		<iframe src="http://player.vimeo.com/video/72755552?title=0&amp;byline=0&amp;portrait=0" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="sohcalmintrovideo"></iframe>
+		<img src="images/SCCutAndSewn.png" id="CutAndSewn">
+    </section>
+    <!-- Boxer Brief Display -->
+    <div id="productdisplayhome">
+		<img src="images/SCBambooBoxerBriefs.jpg" id="boxerbriefsdisplay">
+	    <a class="ecoleaf"></a> 
+	    <p id="bambootitle"><i>BAMBOO</i></p>
+	    <ul id="bamboobenefits">
+	    	<i>
+	    	<br>
+		   	<li>ODOUR RESISTANT</li>
+		    <br>
+		    <li>ANTI-BACTERIAL</li>
+		   	<br>
+		   	<li>MOISTURE WICKING</li>
+		   </i>
+		</ul>
+		<a class="addicon"></a>
+		<a class="infoicon"></a>
+	</div>
+	<!-- Quote -->
+	<div>
+   		<section id="quotebackground" data-type="background" data-speed="10"> 
+	    <p class="quote">
+			"To the mind that is calm,
+			the whole universe surrenders."
+			
+			- Lao Tzu
+		</p> 
+	</div>
+	<!-- Footer -->
+	<footer  class="footer">
+			<nav class="footer-nav group">
+				<a href="shop.html">Shop</a>
+				<a href="about.html">About</a>
+				<a href="http://www.sohcalm.tumblr.com" target="_blank">Blog</a> 	
+				<a href="contact.html">Contact</a>		
+				<a href="contact.html">Eco</a>
+			</nav>	
+			<p id="allrightsreserved">All rights reserved. &copy; Soh Calm 2014 </p>
+ 			<nav class="footer-nav2 group">
+				<a href="contact.html">Terms</a>
+				<a href="contact.html">Media</a>				
+			</nav>	
+			<nav class="social-navfooter group">
+				<a href="http://www.youtube.com/SohCalm" class="VimeoLink"></a>
+				<a href="http://www.instagram.com/SohCalm" class="InstagramLink"></a>
+				<a href="http://www.twitter.com/SohCalm" class="TwitterLink"></a>
+			</nav>			
+	</footer>
+	<!-- Java Script -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/unslider.min.js"></script>
+	<!-- Slider Script -->
+	<script>
+		$(function() {
+    		$('.slider').unslider();
+		});
+		$('.slider').unslider({
+			speed: 500,               //  The speed to animate each slide (in milliseconds)
+			delay: 3000,              //  The delay between slide animations (in milliseconds)
+			keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+			dots: true,               //  Display dot navigation
+			fluid: true              //  Support responsive design. May break non-responsive designs
+
+		});		
+	</script>
+</body>
+</html>
