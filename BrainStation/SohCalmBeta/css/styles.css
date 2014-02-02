@@ -1,0 +1,343 @@
+/** {
+	border: 1px solid red;
+}*/
+
+/* 1.0 Navbars */
+.HeaderLogo {
+	background:url(../images/SCSprite.jpg) 0 0;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 25px;
+	margin-right: 40px;
+	margin-left: 75px;
+	margin-bottom: 25px;
+	border-radius:100px;	
+}
+.HeaderLogo:hover{
+	background:url(../images/SCSprite.jpg) 0 -100px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 25px;
+	margin-right: 40px;
+	margin-left: 75px;
+	margin-bottom: 25px;
+	border-radius:100px;	
+}
+.main-nav {
+	width: 500px;
+	float: left;
+}
+.main-nav a {
+	display: inline;
+	list-style: none;
+	margin: 5px;
+	font-family: Helvetica;
+	font-weight: bold;
+	float: left;
+	color:black;
+	text-decoration: none;
+	margin-top: 65px;
+	padding: 5px;
+}
+.main-nav a:hover {
+	display: inline;
+	list-style: none;
+	margin: 5px;
+	font-family: Helvetica;
+	font-weight: bold;
+	float: left;
+	color:black;
+	border-bottom: 2px solid black;
+	margin-top: 65px;
+	padding: 5px;
+}
+#selected {
+	
+	border-bottom: 2px solid black;
+}
+.footer {
+
+	border-top: 3px solid black;
+}
+.footer-nav {
+	width: 530px;
+	float: left;
+	margin-left: 20px;
+}
+.footer-nav a {
+	display: inline;
+	list-style: none;
+	margin: 5px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	color:black;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 5px;
+}
+.footer-nav2 {
+	width: 200px;
+	float: left;
+	margin-left: 200px;
+	font-size: 12px;
+}
+.footer-nav2 a {
+	display: inline;
+	list-style: none;
+	margin: 5px;
+	font-family: Helvetica;
+	font-weight: bold;
+	float: left;
+	color:black;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 5px;
+}
+#allrightsreserved {
+	position: absolute;
+	left: 500px;
+	margin-top: 16px;
+	width: 300px;
+	font-size: 10px;
+}
+/* Social Nav */
+.social-nav {
+	margin-top: 70px;
+	margin-right: 75px;
+	float: right;
+}
+.social-nav a {
+	display: block;
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin: 0 9px 0 9px;
+}
+.social-navfooter {
+	margin-top: 6px;
+	margin-right: 50px;
+	float: right;
+}
+.social-navfooter a {
+	display: block;
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin: 0 9px 0 9px;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.TwitterLink {
+	background:url(../images/SCSprite.jpg) -100px 1px;
+	position: relative;
+}
+.InstagramLink {
+	background:url(../images/SCSprite.jpg) -130px 2px;
+	position: relative;
+}
+.VimeoLink {
+	background:url(../images/SCSprite.jpg) -160px 2px;
+	position: relative;
+}
+.TwitterLink:hover {
+	background:url(../images/SCSprite.jpg) -100px -27px;
+	position: relative;
+}
+.InstagramLink:hover {
+	background:url(../images/SCSprite.jpg) -130px -26px;
+	position: relative;
+}
+.VimeoLink:hover {
+	background:url(../images/SCSprite.jpg) -160px -26px;
+	position: relative;
+}
+/* 2.0 Slider */
+.slider { 
+	position: relative; 
+	overflow: auto; 
+}    
+.slider li { 
+
+	list-style: none; 
+}
+.slider ul li { 
+
+	float: left; 
+}
+.slider ul {
+	padding: 0;
+	margin:0;
+}	
+/* Icons */
+.addicon {
+	background:url(../images/SCSprite.jpg) -926px 0;
+	position: relative;	
+	float: left;
+	width: 29px;
+	height: 29px;
+	left:290px;
+	top: 200px;
+}
+.infoicon {
+	background:url(../images/SCSprite.jpg) -956px 0;
+	position: relative;	
+	float: left;
+	width: 29px;
+	height: 29px;
+	left:291px;
+	top: 200px;
+}
+.ecoleaf {
+	background:url(../images/SCSprite.jpg) -1030px 0;
+	position: relative;
+	width: 75px;
+	height: 75px;
+	float: left;
+	left: 295px;
+	top:100px;
+}
+/* Home Page Body */
+.freeshipping {
+	position: relative;
+	margin-top:100px;
+	margin-right: 250px;
+	margin-bottom: 100px;
+	margin-left: 250px;
+	text-align: center;
+	color: #3e3d3d;
+	font-family: "futura";
+	font-size: 28px;
+	border: 4px solid #3e3d3d;
+}
+#canadamap { 
+	background: url(../images/SCCanadaMap1.jpg) 50% 0 repeat fixed; 
+	min-height: 500px;
+	position:relative;
+} 
+#sohcalmintrovideo {
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 100px;
+}
+#CutAndSewn {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 800px;
+}
+#productdisplayhome {
+
+	height: 600px;
+}
+#bambootitle {
+	font-family: georgia;
+	position: relative;
+	font-size: 30px;
+	left: 165px;
+	top: 170px;
+	width: auto;
+	margin-right: 0;
+	letter-spacing: 4px;
+}
+#bamboobenefits {
+	font-family: georgia;
+	position: relative;
+	font-size: 16px;
+	left: 195px;
+	top: 170px;	
+	text-align: auto;
+	width: 300px;
+	letter-spacing: 2px;
+}
+#boxerbriefsdisplay {
+	position: relative;
+	float: right;
+	margin-top: 100px;
+	margin-right: 100px;
+}
+.productdisplay {
+	font-family: georgia;
+	left: 350px;
+	top: 200px;
+	padding: 300px;
+}
+#quotebackground {
+	background: url(../images/SCQuoteBackground1.jpg) 50% 0 repeat fixed; 
+	min-height: 450px;
+	position:relative;
+}
+.quote {
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-top: 170px;
+	font-family: Georgia;
+	font-size: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: pre;
+	color: white;
+	font-style: italic;
+	font-weight: 100;
+	letter-spacing: 4px;
+}
+/* Product Pages */
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+h2 {
+	font-family: Helvetica;
+	border-bottom: 2px solid black;
+	text-align: right;
+	width: 500px;
+}
+h3 {
+	font-family: Georgia;
+	font-size: 30px;
+	font-weight: 300;
+	float: right;
+	margin: 0;
+}
+img.addtocart {
+	width:158px;
+	height: 45px;
+	background:url(../images/SCSprite.jpg) -760px -5px;
+	position: relative;
+}
+p.productdesign {
+
+	text-align: justify;
+}
+#productinfo {
+	float: right;	
+	position: relative;
+	width: 500px;
+	height: 600px;
+	margin:0 auto;
+}
+#big-image {
+	width:300px;
+	margin-top: 50px;
+}
+#small-image {
+
+	width:400px;
+}
+.small-images a, .big-images a {
+	float: left;
+	margin-left: 150px;
+}
+.small-images a.selected {
+
+	float: left;
+}

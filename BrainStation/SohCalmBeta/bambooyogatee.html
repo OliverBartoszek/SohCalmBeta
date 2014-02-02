@@ -1,0 +1,69 @@
+<Doctype! HTML>	
+<head>
+	<title>Soh Calm Test Site</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+	<header class="navbar group">
+			<a href="index.html" class="HeaderLogo"></a>
+			<nav class="main-nav ">
+				<a href="shop.html">Shop</a>
+				<a href="about.html">About</a>
+				<a href="http://www.sohcalm.tumblr.com" target="_blank">Blog</a> 	
+				<a href="contact.html">Contact</a>
+					
+			</nav>	
+			<nav class="social-nav ">
+				<a href="http://www.youtube.com/SohCalm" class="VimeoLink"></a>
+				<a href="http://www.instagram.com/SohCalm" class="InstagramLink"></a>
+				<a href="http://www.twitter.com/SohCalm" class="TwitterLink"></a>
+			</nav>
+	</header>
+	<div class="wrapper">
+		<div id="productinfo">
+			<h2>Bamboo Yoga Tee</h2>
+			<h3>$54.00</h3>
+			<img class="addtocart"></a>
+			<br>
+			<br>
+			<br>
+			<h4>Design</h4>
+			<p class="productdesign">Anti-bacterial, odour resistant, and moisture wicking - Add four way stretch and bamboo's natural silky smooth texture to that, and you are left with an extremely versatile t-shirt which has been designed to look sharp whether you're at the studio, on a run, or hanging out with friends. And yes, it is cut & sewn in Toronto.</p>
+			<h4>Blend</h4>
+			<ul>
+				<li>66% Bamboo</li>
+				<li>28% Cotton</li>
+				<li> 6% Spandex</li>
+			</ul>	
+		</div>
+		<div id="big-image">
+		    <img src="store/bambooyogateeblack/SCBambooYogaTee.jpg">
+		    <img src="store/bambooyogateeblack/SCBambooYogaTee2.jpg">
+		    <img src="store/bambooyogateeblack/SCBambooYogaTee3.jpg">
+		</div>
+		<div class="small-images" id="small-image">
+		    <img src="store/bambooyogateeblack/SCBambooYogaTee1Thumb.jpg" style="padding-right:2px;">
+		    <img src="store/bambooyogateeblack/SCBambooYogaTee1Thumb2.jpg" style="padding-right:2px;">
+		    <img src="store/bambooyogateeblack/SCBambooYogaTee1Thumb3.jpg" style="padding-right:2px;">
+		</div>
+	</div>
+
+
+
+
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		    $("#big-image img:eq(0)").nextAll().hide();
+		    $(".small-images img").click(function(e){
+		        var index = $(this).index();
+		        $("#big-image img").eq(index).show().siblings().hide();
+    });
+	});
+
+	</script>
+
+</body>
+</html>
